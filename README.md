@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+Bino Buddy – Movie Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bino Buddy is a WhatsApp-style interactive movie chatbot built with React.js and Tailwind CSS. It helps users discover movies, get cast and crew details, decode storylines, and receive recommendations through a friendly chat interface.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Dynamic chat bubbles for user and bot messages
 
-### `npm start`
+Real-time responses based on keywords (movie, recommend, help, hi, bye)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Movie recommendations by genre or mood
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Storyline decoding and trivia sharing
 
-### `npm test`
+Smooth animations and interactive UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Fully responsive design
 
-### `npm run build`
+Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frontend: React.js, Tailwind CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+State Management: React Hooks (useState, useEffect)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Styling & Animations: Tailwind CSS + CSS animations
 
-### `npm run eject`
+Deployment: Vercel (or any React hosting platform)
+Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Type “hi” or “hello” to get a greeting from Bino Buddy.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ask about a movie to get cast, crew, or storyline info.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ask for recommendations by genre or mood.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Type “help” to see a list of things Bino Buddy can do.
